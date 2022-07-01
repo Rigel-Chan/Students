@@ -1,0 +1,23 @@
+.Link
+{
+  text-align: left;
+  
+}
+ul
+{ 
+  background-color: aquamarine;
+  margin-right: 90%;
+  padding: 2%;
+}
+#output
+{
+
+  text-align: center;
+}
+
+.Route
+{
+ display: block;
+ margin-left: 20%;
+ padding: 40%;
+}
