@@ -3,7 +3,7 @@ import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import Home from './component/home';
 import About from './component/about';
 import Contact from './component/contact';
-import NameList from './component/studentInfo';
+import StudentInfo from './component/studentInfo';
 import './App.css';
  
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
                 <Link to="/contact">Contact Us</Link>
               </li>
               <li>
-                <Link to="/NameList">NameList</Link>
+                <Link to="/StudentInfo">StudentInfo</Link>
               </li>
             </ul>
             <div id="output">
@@ -30,7 +30,7 @@ class App extends Component {
                  <Route exact path='/' element={< Home />}></Route>
                  <Route exact path='/about' element={< About />}></Route>
                  <Route exact path='/contact' element={< Contact />}></Route>
-                 <Route exact path='/NameList' element={< NameList />}></Route>
+                 <Route exact path='/StudentInfo' element={< StudentInfo />}></Route>
           </Routes>
           </div>
           </div>
